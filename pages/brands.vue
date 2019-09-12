@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h2>Marca</h2>
     <div class="row">
       <b-form @submit="onSubmit" @reset="onReset">
         <b-form-group
@@ -12,6 +13,7 @@
             v-model="brand"
             :class="{ 'is-invalid': invalid }"
             autocomplete="off"
+            autofocus
             list="brands-list"
           ></b-form-input>
           <b-form-datalist id="brands-list" :options="options">
@@ -76,6 +78,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .title {

@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1 class="title"></h1>
     <h2>{{ result.modelo }}</h2>
 
     <dl>
