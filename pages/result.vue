@@ -18,7 +18,7 @@
       </span>
     </p>
 
-    <a href="/brands" disabled>Consultar novamente</a>
+    <nuxt-link to="/">Consultar novamente</nuxt-link>
   </div>
 </template>
 
