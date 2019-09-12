@@ -1,5 +1,8 @@
 <template>
   <div>
+    <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar-brand href="#">Quanto Vale meu carro?</b-navbar-brand>
+    </b-navbar>
     <nuxt />
   </div>
 </template>
@@ -51,5 +54,10 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.container {
+  position: relative;
+  top: -60px;
 }
 </style>
