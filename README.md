@@ -1,5 +1,7 @@
 # quanto-vale-meu-carro
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 > My amazing Nuxt.js project
 
 ## Build Setup
